@@ -17,8 +17,9 @@ from scipy.stats import norm, poisson
 # from scipy.interpolate import BarycentricInterpolator
 # from scipy.interpolate import CubicSpline
 import math
-# import seaborn
 
+
+# import seaborn
 
 
 # x ** x        x > 0
@@ -277,7 +278,7 @@ if __name__ == "__main__":
 
     # 5.绘图
     # 5.1 绘制正态分布概率密度函数
-    mpl.rcParams['font.sans-serif'] = [u'SimHei']  #FangSong/黑体 FangSong/KaiTi
+    mpl.rcParams['font.sans-serif'] = [u'SimHei']  # FangSong/黑体 FangSong/KaiTi
     mpl.rcParams['axes.unicode_minus'] = False
     mu = 0
     sigma = 1
@@ -426,7 +427,6 @@ if __name__ == "__main__":
     # plt.plot(x, y, 'r--', x, y, 'ro', linewidth=2, markersize=4)
     # plt.grid()
     # plt.show()
-
 
     # # 6.5 插值
     # rv = poisson(5)
